@@ -1,5 +1,5 @@
 # Twitter-backend-frontend
-Twitter timeline example mande in rocket-seat course
+Twitter timeline example mande in rocket-seat course with socket.io/node.js/React
 
 
 ## How to run
