@@ -16,10 +16,10 @@ export class Login extends Component {
   handleSubmit = e => {
       e.preventDefault()
       const { username } = this.state
-
+       
       if(!username.length) return;
 
-      localStorage.setItem('@GoTwiiter:username', username)
+      localStorage.setItem('@GoTwitter:username', username)
 
       this.props.history.push('/timeline')
   }
