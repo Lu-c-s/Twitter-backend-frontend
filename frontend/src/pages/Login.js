@@ -21,7 +21,11 @@ export class Login extends Component {
 
     if (!username.length) return;
 
+<<<<<<< HEAD
     localStorage.setItem("@GoTwitter:username", username);
+=======
+      localStorage.setItem('@GoTwitter:username', username)
+>>>>>>> befb0798d15a85381af7551e9d3162e592092c22
 
     this.props.history.push("/timeline");
   };
