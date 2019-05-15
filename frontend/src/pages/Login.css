@@ -1,13 +1,53 @@
-.login-wrapper {
-  height: 100%;
 
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
-.login-wrapper form {
+.login-leftSide {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #42a1db;
+}
+
+.login-leftSide .login-quotes-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   margin: -30px 0;
+}
+
+.login-leftSide .login-quotes-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.login-leftSide .login-quotes-container .login-quote {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+
+.login-rightSide {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+ .login-wrapper form {
   margin: 20px 0 0;
   width: 100%;
   max-width: 280px;
@@ -24,6 +64,7 @@
   height: 44px;
   padding: 0 15px;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .login-wrapper form button {
@@ -41,3 +82,5 @@
 .login-wrapper form button:hover {
   background: #42a1db;
 }
+
+ 
